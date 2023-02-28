@@ -1,2 +1,2 @@
-# Plants 2 new
- refreshing my first web-site with HTML and CSS
+# Plants
+Refreshing my first website with more HTML and CSS

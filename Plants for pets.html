@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<style>
+		body {
+			background-image: url("pic3.jpg");
+			background-size: cover;
+			max-height: 500px;
+ 			background-attachment: fixed;
+ 			background-position: center;
+ 			font-family: Arial, sans-serif;
+		}
+		a {
+			color:darkblue;
+		}
+		a:hover {
+			  color: hotpink;
+			}
+			input:focus {
+			background-color: lightblue;
+			}
+		p::first-letter {
+		  color: hotpink;
+		  size:xx-large;
+		}
+	</style>
+	<title>Plants save for pets</title>
+</head>
+<body>
+	<p>Please answer the questions bellow:</p><br>
+	<form method="POST">
+		<label for="fname">First name:</label><br>
+		<input type="text" id="fname" name="fname" placeholder="John" required><br>
+		<label for="email">Email</label><br>
+		<input type="email" id="email" name="email" placeholder="JohnDoe@gmail.com"required><br><br>
+	<p>What pet do you have?</p><br>
+	<input type="checkbox"name="Cat">Cat<br>
+	<input type="checkbox"name="Dog">Dog<br>
+	<input type="checkbox"name="Guenea pig">Guenea pig<br>
+	<input type="checkbox"name="Hamster">Hamster<br>
+	<input type="checkbox"name="Lizard">Lizard<br>
+	<input type="checkbox"name="Mouse">Mouse<br>
+	<input type="checkbox"name="Parrot">Parrot<br>
+	<p>Would you like to receive a weekly letter from us about plants?</p>
+	<select name="Weekly newsletter">
+		<option value="Yes">Yes, please</option>
+		<option value="No">No, thanks</option>
+	</select><br><br>
+	 <input type="submit" name="Submit">
+	 <input type="reset" name="Reset">
+	</form>
+
+	<p>Back to the first page <a href="index.html">Plants and flowers for home</a></p> 
+</body>
+</html>
